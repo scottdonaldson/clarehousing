@@ -51,7 +51,7 @@ function left_admin_footer_text_output($text) {
  
 add_filter('update_footer', 'right_admin_footer_text_output', 11); //right side
 function right_admin_footer_text_output($text) {
-    $text = '&copy 2012.';
+    $text = '&copy ' .date('Y'). '.';
     return $text;
 }
 

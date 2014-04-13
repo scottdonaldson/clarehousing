@@ -44,20 +44,14 @@ the_post(); ?>
     <div class="fifth leftnav">
     	<ul>
         <li><a href="<?php echo home_url(); ?>/front-door" title="More from the Front Door"><strong>The Front Door</strong></a></li>
-        <?php 
-			$prev = get_previous_posts_link('Newer &uarr;',0); 
-			$next = get_next_posts_link('Older &darr;',0); 
+        <?php
 			echo '<ul>'; ?>
-				
-                <li style="text-align:center;"><?php echo $prev; ?></li>
 				
 				<?php while ( have_posts() ) : the_post(); ?>
 				
 				<li><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></li>
 				
 				<?php endwhile; ?>
-            
-            	<li style="text-align:center;"><?php echo $next; ?></li>
             
             </ul>
             

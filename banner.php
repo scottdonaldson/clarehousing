@@ -12,7 +12,7 @@
 			is_page(1111) ||
 			'1111' == $post->post_parent ) {
 
-			echo '<img src="http://www.clarehousing.org/wp-content/uploads/2013/12/Mn-capitol.jpg" />';
+			echo '<img src="http://www.clarehousing.org/wp-content/uploads/2013/12/MN-capitol-tall.jpg" />';
 
 		// Clarion newsletter
 		} elseif (

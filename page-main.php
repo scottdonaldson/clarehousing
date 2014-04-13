@@ -51,10 +51,10 @@ get_header(); ?>
     </div>
     
     <div class="third">
-    	<h3 class="green"><a href="<?php echo home_url(); ?>/clarion-newsletter" title="Clarion Newsletter">Clarion Newsletter</a></h3>
-        <a href="<?php echo home_url(); ?>/clarion-newsletter" title="Clarion Newsletter"><img src="<?php echo bloginfo('template_url'); ?>/images/clarion.jpg" /></a>
-        <p class="big"><a href="<?php echo home_url(); ?>/clarion-newsletter" title="Clarion Newsletter">A bulletin for the friends and supporters of Clare Housing</a></p>
-        <p>Learn more about Clare Housing by reading our latest publications. If you would like to be added to Clare Housing's mailing list, please email Debbie at <a href="mailto:debbie.wyman@clarehousing.org?subject=Clarion%20Newsletter">debbie.wyman@clarehousing.org</a>.</p>
+    	<h3 class="green"><a href="<?php echo home_url(); ?>/legislative-priorities" title="Legislative Priorities">Legislative Priorities</a></h3>
+        <a href="<?php echo home_url(); ?>/legislative-priorities" title="Legislative Priorities"><img src="http://www.clarehousing.org/wp-content/uploads/2013/12/St-Paul-skyline-crop.jpg" /></a>
+        <p class="big"><a href="<?php echo home_url(); ?>/legislative-priorities" title="Legislative Priorities">Clare Housing's legislative priorities</a></p>
+        <p>Clare Housing promotes and encourages good public policy that ensures individuals can easily access affordable housing and the services they need to maintain their dignity and health.</p>
     </div>
     
     <div class="third">
